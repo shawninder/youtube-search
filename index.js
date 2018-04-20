@@ -6,6 +6,7 @@ module.exports = async (req, res) => {
   const uri = url.parse(req.url)
   const query = qs.parse(uri.query)
   if (query.q) {
+    console.log('process.env.YOUTUBE_KEY', process.env.YOUTUBE_KEY)
     const data = await fetch(`https://www.googleapis.com/youtube/v3/search?${qs.stringify({
       maxResults: '25',
       part: 'snippet',
