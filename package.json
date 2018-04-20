@@ -1,0 +1,25 @@
+{
+  "name": "youtube-search",
+  "version": "0.0.1",
+  "description": "API for searching for YouTube videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawninder/youtube-search.git"
+  },
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/shawninder/youtube-search/issues"
+  },
+  "homepage": "https://github.com/shawninder/youtube-search#readme",
+  "dependencies": {
+    "micro": "^9.1.4",
+    "node-fetch": "^2.1.2",
+    "qs": "^6.5.1"
+  }
+}
