@@ -13,6 +13,8 @@ module.exports = async (req, res) => {
       type: '',
       key: process.env.YOUTUBE_KEY
     })}`)
+    // TODO use a specific origin here instead
+    res.setHeader('Access-Control-Allow-Origin', '*')
     data.body.pipe(res)
   } else {
     res.statusCode = 400
