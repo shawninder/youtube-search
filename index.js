@@ -10,6 +10,7 @@ module.exports = async (req, res) => {
       maxResults: '25',
       part: 'snippet',
       q: query.q,
+      pageToken: query.pageToken,
       type: '',
       key: process.env.YOUTUBE_KEY
     })}`)
