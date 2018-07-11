@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/shawninder/youtube-search#readme",
   "dependencies": {
-    "micro": "^9.1.4",
-    "node-fetch": "^2.1.2",
-    "qs": "^6.5.1"
+    "micro": "9.3.2",
+    "node-fetch": "2.1.2",
+    "qs": "6.5.2"
+  },
+  "devDependencies": {
+    "micro-dev": "3.0.0"
   }
 }
